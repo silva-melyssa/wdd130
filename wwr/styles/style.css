@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;600&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Salsa&display=swap');
 
 :root {
 --heading-font: "Salsa", sans-serif;
@@ -225,6 +225,90 @@ nav {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #646a73;
 }
+
+/* Faq page */
+/* questions */
+body, ul {
+    margin: 10px;
+    padding: 5px;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.faq-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.faq-item h2 {
+    font-size: 1.2rem;
+    color: #01295f;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #01295f;
+}
+
+.faq-item:hover {
+    background-color: #6cd3ff4b;
+
+}
+.faq-item input {
+    display: none;
+}
+
+.faq-item .question {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    color: #fb8500;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+.faq-item .answer {
+    font-family: var(--paragraph-font);
+    display: none;
+    font-size: 1.5rem;
+    color: #01295f;
+    margin-top: 20px;
+    line-height: 2.2rem;
+}
+
+.faq-item input:checked + .question + .answer {
+    display: block;
+}
+
+.faq-item input:checked + .question {
+    font-weight: bold;
+
+}
+
+.faq-item .answer {
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.faq-item input:checked + .question + .answer {
+    max-height: 1000px;
+    opacity: 1;
+}
+
+
+
+
+
 /* step 7 */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
