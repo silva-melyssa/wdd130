@@ -1,54 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
     <div id="content">
         <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/logobb.png" alt="Brazilian beauties Logo">
+            <a id="logo-link" href="index.html">
+                <img class="logo" src="images/logobbRemovido.png" alt="Brazilian beauties Logo">
             </a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="tourism.html">Tourism</a>
-                <a href="curiosities.html">Curiosities</a>
-              </nav>
+                <a class="nav-item" href="index.html">Home</a>
+                <a class="nav-item" href="tourism.html">Tourism</a>
+                <a class="nav-item" href="curiosities.html">Curiosities</a>
+            </nav>
         </header>
         <div id="hero">
             <div id=hero-box>
-                <img id="hero-img" src="images/herohomepage.jpeg" alt="iguazu falls">
+                <img id="hero-img" src="images/cataratashero.jpeg" alt="iguazu falls">
+                <div class="overlay"></div>
             </div>
             <section id="hero-msg">
                 <h1 class="home-title">Welcome to Brazil</h1>
                 <h4>Where Beauty and Curiosity Unite!</h4>
             </section>
         </div>
-        <main class="home">
+        <main class="grid-default home-page">
             <section class="introduction">
                 <h2>Explore the Vibreant Heart of South America</h2>
-                <p>Nestled in the heart of South America, Brazil is a land of unparalleled beauty and captivating curiosities. From its world-famous beaches and lush rainforests to its diverse culture and fascinating history, Brazil offers an array of experiences that will leave you awe-inspired.</p>
+                <p>Nestled in the heart of South America, Brazil is a land of unparalleled beauty and captivating
+                    curiosities. From its world-famous beaches and lush rainforests to its diverse culture and
+                    fascinating history, Brazil offers an array of experiences that will leave you awe-inspired.</p>
             </section>
             <div id="background"></div>
             <img class="rio" src="images/rio.jpeg" alt="Rio de Janeiro picture">
             <section class="msg">
                 <h2>Discover Brazil's Natural Wonders</h2>
-                <p>On our journey through Brazil, you'll have the chance to explore its most beautiful places for tourism (in my opnion). From the stunning Iguazu Falls to the pristine beaches of Ceara, you'll be immersed in the country's breathtaking landscapes.</p>
-            <section class="third-paragraph">
-                <h2>Unearth Brazil's Intriguing Curiosities</h2>
-                <p>But Brazil isn't just about its natural beauty. Dive into the curious and captivating aspects of this country's history, culture and people. Learn about the annual Carnival celebrations, the rich traditions of samba and capoeira, and the Amazon Rainsforest, which is home to some of the most unique wildlife on the planet.</p>
-            </section>
-            <div id="second-background"></div>
-            <section class="msg-button">
-                <p>Join us as we embark on a virtual tour of Brazil, where we'll delve into the essence of this extraordinary nation, revealing its beauty and unveiling its secrets. So, whether you're planning a trip to Brazil or simply want to satisfy ypur curiosity, you've come to the right place.</p>
-                <h2>Start your Brazilian adventure today!</h2>
-                <div class="button-box">
-                    <a class="page2" href="tourism.html">Tourism</a>
-                    <a class="page3" href="curiosities.html">Curiosities</a>
-                </div>
-            </section>
+                <p>On our journey through Brazil, you'll have the chance to explore its most beautiful places for
+                    tourism (in my opnion). From the stunning Iguazu Falls to the pristine beaches of Ceara, you'll be
+                    immersed in the country's breathtaking landscapes.</p>
+                </section>
+                <section class="third-paragraph">
+                    <h2>Unearth Brazil's Intriguing Curiosities</h2>
+                    <p>But Brazil isn't just about its natural beauty. Dive into the curious and captivating aspects of
+                        this country's history, culture and people. Learn about the annual Carnival celebrations, the
+                        rich traditions of samba and capoeira, and the Amazon Rainsforest, which is home to some of the
+                        most unique wildlife on the planet.</p>
+                </section>
+                <div id="second-background"></div>
+                <section class="msg-button">
+                    <p>Join us as we embark on a virtual tour of Brazil, where we'll delve into the essence of this
+                        extraordinary nation, revealing its beauty and unveiling its secrets. So, whether you're
+                        planning a trip to Brazil or simply want to satisfy ypur curiosity, you've come to the right
+                        place.</p>
+                    <h2>Start your Brazilian adventure today!</h2>
+                    <div class="button-box">
+                        <a class="page2" href="tourism.html">Tourism</a>
+                        <a class="page3" href="curiosities.html">Curiosities</a>
+                    </div>
+                </section>
         </main>
         <footer>
             <div class="social">
@@ -62,9 +77,10 @@
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
             </div>
-            <p>Brazilian Beauties &copy; 2023 - Melyssa Silva</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
+            <p class="copy">Brazilian Beauties &copy; 2023 - Melyssa Silva</p>
+            <p class="site-plan"><a href="site-plan.html">Site Plan</a></p>
         </footer>
     </div>
 </body>
+
 </html>
