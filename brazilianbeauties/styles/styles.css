@@ -184,7 +184,7 @@
             grid-template-columns: repeat(12, 1fr);
             grid-template-rows: repeat(6, 200px);
 
-            gap: 3em 0;
+            gap: 4em 0;
 
     }
 
@@ -368,13 +368,53 @@
         .home-page {
             display: grid;
             grid-template-columns: repeat(12, 1fr);
-            gap: 3em 0; /* Adjust the gap value as needed */
+            gap: 3em 0;
         }
+        #hero-msg2 {
+            position: absolute;
+            top: 70%;
+            left: 0;
+            width: 100%;
+            color: #f1f1f1;
+            text-align: center;
+
+        }
+        
+        .container {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .container .content {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            text-align: center;
+        }
+
+        .content h4{
+            color: white;
+        }
+       
+        
         .introduction,
         .third-paragraph {
             grid-column: 2 / 12;
         }
 
+        .pp2{
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .h4p2{
+            font-size: 1.5em;
+        }
+        
 
         #background{
             grid-column: 1 / -1;
@@ -443,4 +483,130 @@
         .page3:hover {
             background-color: white;
         
+        }
+
+        .conclusion{
+            grid-column: 2 / 12;
+            grid-row: 9;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .Jeri {
+            width: 100%;
+            grid-column: 1/ 5;
+            grid-row: 2;
+            margin-top: 40px;
+            margin-left: 30px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .jeri-msg{
+            grid-column: 6 / 13;
+            grid-row: 2;
+            margin-top: 10px;
+            margin-right: 60px;
+            margin-left: -20px;
+        }
+
+        .Canoa {
+            width: 100%;
+            grid-column: 1/ 5;
+            grid-row: 3;
+            margin-top: 40px;
+            margin-left: 30px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .canoa-msg{
+            grid-column: 6 / 13;
+            grid-row: 3;
+            margin-top: 10px;
+            margin-right: 60px;
+            margin-left: -20px;
+        }
+
+        .Lençóis {
+            width: 100%;
+            grid-column: 1/ 5;
+            grid-row: 4;
+            margin-top: 40px;
+            margin-left: 30px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .lencois-msg{
+            grid-column: 6 / 13;
+            grid-row: 4;
+            margin-top: 10px;
+            margin-right: 60px;
+            margin-left: -20px;
+        }
+
+        .Noronha {
+            width: 100%;
+            grid-column: 1/ 5;
+            grid-row: 5;
+            margin-top: 40px;
+            margin-left: 30px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .noronha-msg{
+            grid-column: 6 / 13;
+            grid-row: 5;
+            margin-top: 10px;
+            margin-right: 60px;
+            margin-left: -20px;
+        }
+
+        .Angra {
+            width: 100%;
+            grid-column: 1/ 5;
+            grid-row: 6;
+            margin-top: 40px;
+            margin-left: 30px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .angra-msg{
+            grid-column: 6 / 13;
+            grid-row: 6;
+            margin-top: 10px;
+            margin-right: 60px;
+            margin-left: -20px;
+        }
+
+        .Foz {
+            width: 100%;
+            grid-column: 1/ 5;
+            grid-row: 7;
+            margin-top: 40px;
+            margin-left: 30px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .foz-msg{
+            grid-column: 6 / 13;
+            grid-row: 7;
+            margin-top: 10px;
+            margin-right: 60px;
+            margin-left: -20px;
+        }
+
+        .Bonito {
+            width: 100%;
+            grid-column: 1/ 5;
+            grid-row: 8;
+            margin-top: 40px;
+            margin-left: 30px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .bonito-msg{
+            grid-column: 6 / 13;
+            grid-row: 8;
+            margin-top: 10px;
+            margin-right: 60px;
+            margin-left: -20px;
         }

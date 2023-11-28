@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tourism</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -14,29 +15,33 @@
                 <img class="logo" src="images/logobbRemovido.png" alt="Brazilian beauties Logo">
             </a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="tourism.html">Tourism</a>
-                <a href="curiosities.html">Curiosities</a>
+                <a class="nav-item" href="index.html">Home</a>
+                <a class="nav-item" href="tourism.html">Tourism</a>
+                <a class="nav-item" href="curiosities.html">Curiosities</a>
             </nav>
         </header>
         <div id="hero">
             <div id=hero-box>
                 <img id="hero-img" src="images/angra.jpeg" alt="angra dos reis">
             </div>
-            <section id="hero-msg">
-                <h1 class="home-title">Tourism in Brazil</h1>
-                <h4>Discover the Beauty of These Must-Visit Destinations</h4>
+            <section id="hero-msg2">
+                <div class="container">
+                    <div class="content">
+                        <h1 class="home-title">Tourism in Brazil</h1>
+                        <h4>Discover the Beauty of These Must-Visit Destinations</h4>
+                    </div>
+                </div>
             </section>
         </div>
-        <main class="tourism-page">
-            <section class="introduction">
-                <p>Brazil is a land of enchanting landscapes and diverse experiences, offering travelers a rich tapestry
+        <main class="home-page">
+            <div class="introduction">
+                <p class="pp2">Brazil is a land of enchanting landscapes and diverse experiences, offering travelers a rich tapestry
                     of destinations to explore. Let's take you on a journey through some of the most captivating places
                     in the country:</p>
-            </section>
+                </div>
             <div id="jericoacoara"></div>
             <img class="Jeri" src="images/jeri.jpeg" alt="Jericoacoara picture">
-            <section class="tourism-grid msg">
+            <section class="jeri-msg">
                 <h2 class="tour-heading">Jericoacoara</h2>
                 <p class="tour-text">Nestled along the northeastern coast, Jericoacoara is a haven for beach lovers and adventure seekers.
                     Discover its golden sand dunes, crystal-clear lagoons, and tranquil beaches. This remote paradise is
@@ -44,7 +49,7 @@
             </section>
             <div id="canoa"></div>
             <img class="Canoa" src="images/canoa.jpeg" alt="Canoa Quebrada picture">
-            <section class="tourism-grid msg">
+            <section class="canoa-msg">
                 <h2 class="tour-heading">Canoa Quebrada</h2>
                 <p class="tour-text">Located in Ceará, Canoa Quebrada is known for its iconic red cliffs, turquoise waters, and laid-back
                     atmosphere. It's a destination for relaxation, with activities like sand dune buggy rides and
@@ -52,7 +57,7 @@
             </section>
             <div id="lençóis"></div>
             <img class="Lençóis" src="images/lencois.jpeg" alt="Lençóis Maranhenses picture">
-            <section class="tourism-grid msg">
+            <section class="lencois-msg">
                 <h2 class="tour-heading">Lençóis Maranhenses</h2>
                 <p class="tour-text">The surreal landscape of Lençóis Maranhenses is like no other. Vast sand dunes punctuated by stunning
                     freshwater lagoons create a dreamlike setting. This natural wonder is a must-visit for photographers
@@ -60,7 +65,7 @@
             </section>
             <div id="fernando"></div>
             <img class="Noronha" src="images/noronha.jpeg" alt="Fernando de Noronha picture">
-            <section class="tourism-grid msg">
+            <section class="noronha-msg">
                 <h2 class="tour-heading">Fernando de Noronha</h2>
                 <p class="tour-text">A remote archipelago in the Atlantic Ocean, Fernando de Noronha is a UNESCO World Heritage site. Its
                     pristine beaches, vibrant marine life, and excellent snorkeling and diving opportunities make it a
@@ -68,7 +73,7 @@
             </section>
             <div id="angra"></div>
             <img class="Angra" src="images/angra.jpeg" alt="Angra dos Reis picture">
-            <section class="tourism-grid msg">
+            <section class="angra-msg">
                 <h2 class="tour-heading">Angra dos Reis</h2>
                 <p class="tour-text">This coastal paradise in Rio de Janeiro is known for its lush rainforests and picturesque islands.
                     Explore secluded beaches, historic towns, and a wide range of water activities, including boating
@@ -76,7 +81,7 @@
             </section>
             <div id="iguaçu"></div>
             <img class="Foz" src="images/iguazu.jpg" alt="Foz do Iguaçu picture">
-            <section class="tourism-grid msg">
+            <section class="foz-msg">
                 <h2 class="tour-heading">Foz do Iguaçu</h2>
                 <p class="tour-text">Home to the awe-inspiring Iguazu Falls, Foz do Iguaçu is a natural wonder that straddles the border
                     of Brazil and Argentina. Witness the power and beauty of these falls, and explore the surrounding
@@ -84,17 +89,17 @@
             </section>
             <div id="bonito"></div>
             <img class="Bonito" src="images/bonitoms.jpeg" alt="Bonito picture">
-            <section class="tourism-grid msg">
+            <section class="bonito-msg">
                 <h2 class="tour-heading">Bonito</h2>
                 <p class="tour-text">Bonito lives up to its name with its crystal-clear rivers, caves, and lush forests. This eco-tourism
                     destination offers adventures like snorkeling, caving, and wildlife watching in some of the most
                     pristine environments.</p>
             </section>
-            <section class="conclusion">
+            <div class="conclusion">
                 <p>Each of these destinations has its own unique charm and attractions, making Brazil a diverse and
                     thrilling country for travelers. Whether you seek adventure, relaxation, or natural beauty, Brazil
                     has something to offer for everyone.</p>
-            </section>
+                </div>
         </main>
         <footer>
             <div class="social">
@@ -108,8 +113,8 @@
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
             </div>
-            <p>Brazilian Beauties &copy; 2023 - Melyssa Silva</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
+            <p class="copy">Brazilian Beauties &copy; 2023 - Melyssa Silva</p>
+            <p class="site-plan"><a href="site-plan.html">Site Plan</a></p>
         </footer>
     </div>
 </body>
