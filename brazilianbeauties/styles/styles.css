@@ -349,6 +349,10 @@
         .site-plan{
             grid-column: 11 / 13;
             text-align: center;
+           
+        }
+        .site-plan a{
+            color: var(--accent2-color);
         }
 
         .site-plan a:hover{
@@ -609,4 +613,106 @@
             margin-top: 10px;
             margin-right: 60px;
             margin-left: -20px;
+        }
+
+        .carnival {
+            width: 100%;
+            grid-column: 1/ 5;
+            grid-row: 2;
+            margin-top: 40px;
+            margin-left: 30px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .car-msg{
+            grid-column: 6 / 13;
+            grid-row: 2;
+            margin-top: 10px;
+            margin-right: 60px;
+            margin-left: -20px;
+        }
+
+        .Soccer {
+            width: 100%;
+            grid-column: 9 / 13;
+            grid-row: 3;
+            margin-top: 40px;
+            margin-left: -60px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .soc-msg{
+            grid-column: 1 / 9;
+            grid-row: 3;
+            margin-top: 10px;
+            margin-right: 90px;
+            margin-left: 60px;
+        }
+
+        .Ipanema {
+            width: 100%;
+            grid-column: 1/ 5;
+            grid-row: 4;
+            margin-top: 40px;
+            margin-left: 30px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .ipa-msg{
+            grid-column: 6 / 13;
+            grid-row: 4;
+            margin-top: 10px;
+            margin-right: 60px;
+            margin-left: -20px;
+        }
+
+        .capoeira {
+            width: 100%;
+            grid-column: 9 / 13;
+            grid-row: 5;
+            margin-top: 40px;
+            margin-left: -60px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .cap-msg{
+            grid-column: 1 / 9;
+            grid-row: 5;
+            margin-top: 10px;
+            margin-right: 90px;
+            margin-left: 60px;
+        }
+
+        .Amazon {
+            width: 100%;
+            grid-column: 1/ 5;
+            grid-row: 6;
+            margin-top: 40px;
+            margin-left: 30px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .ama-msg{
+            grid-column: 6 / 13;
+            grid-row: 6;
+            margin-top: 10px;
+            margin-right: 60px;
+            margin-left: -20px;
+        }
+
+        .portuguese {
+            width: 100%;
+            grid-column: 9 / 13;
+            grid-row: 7;
+            margin-top: 40px;
+            margin-left: -60px;
+            box-shadow: 5px 5px 10px #646a73;
+        }
+
+        .por-msg{
+            grid-column: 1 / 9;
+            grid-row: 7;
+            margin-top: 10px;
+            margin-right: 90px;
+            margin-left: 60px;
         }

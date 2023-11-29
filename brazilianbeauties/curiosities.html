@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curiosities</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -14,30 +15,31 @@
                 <img class="logo" src="images/logobbRemovido.png" alt="Brazilian beauties Logo">
             </a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="tourism.html">Tourism</a>
-                <a href="curiosities.html">Curiosities</a>
+                <a class="nav-item" href="index.html">Home</a>
+                <a class="nav-item" href="tourism.html">Tourism</a>
+                <a class="nav-item" href="curiosities.html">Curiosities</a>
             </nav>
         </header>
         <div id="hero">
             <div id=hero-box>
                 <img id="hero-img" src="images/amazonia.jpeg" alt="Amazon">
+                <div class="overlay"></div>
             </div>
             <section id="hero-msg">
                 <h1 class="home-title">Curiosities of Brazil</h1>
                 <h4>Unveiling the Unique and Intriguing</h4>
             </section>
         </div>
-        <main class="curiosities-page">
-            <section class="introduction">
-                <p>Welcome to our exploration of the fascinating curiosities that make Brazil a truly exceptional
+        <main class="home-page">
+            <div class="introduction">
+                <p class="pp2">Welcome to our exploration of the fascinating curiosities that make Brazil a truly exceptional
                     country. From its vibrant culture to its diverse wildlife and awe-inspiring landmarks, Brazil never
                     ceases to amaze. Here are some of the captivating curiosities that define this extraordinary nation:
                 </p>
-            </section>
+            </div>
             <div id="carnival"></div>
             <img class="carnival" src="images/carnaval.jpeg" alt="Carnival picture">
-            <section class="msg">
+            <section class="car-msg">
                 <h2>Carnival Extravaganza</h2>
                 <p>Brazil is famous for its Carnival, a dazzling celebration of music, dance, and color. Learn about the
                     origins of this massive festival, the samba parades, and the intricate costumes that make it a
@@ -45,14 +47,14 @@
             </section>
             <div id="soccer"></div>
             <img class="Soccer" src="images/futebol.jpeg" alt="Soccer picture">
-            <section class="msg">
+            <section class="soc-msg">
                 <h2>Soccer</h2>
                 <p>Soccer is a national passion in Brazil. The country has hosted the FIFA World Cup twice (in 1950 and
                     2014) and has produced some of the world's most famous players, such as Pelé and Ronaldo.</p>
             </section>
             <div id="ipanema"></div>
             <img class="Ipanema" src="images/ipanema.jpeg" alt="Ipanema Beach picture">
-            <section class="msg">
+            <section class="ipa-msg">
                 <h2>Ipanema Beach</h2>
                 <p>Learn about the legendary Ipanema Beach in Rio de Janeiro, famous for its iconic wave-patterned
                     sidewalk and the inspiration it provided for the renowned bossa nova song "The Girl from Ipanema."
@@ -60,7 +62,7 @@
             </section>
             <div id="capoeira"></div>
             <img class="capoeira" src="images/capoeira.jpeg" alt="Capoeira Martial Art picture">
-            <section class="msg">
+            <section class="cap-msg">
                 <h2>Capoeira Martial Art</h2>
                 <p>Capoeira, a Brazilian martial art, combines elements of dance, acrobatics, and music. Discover the
                     history of Capoeira and how it has evolved into both a form of self-expression and a cultural
@@ -68,7 +70,7 @@
             </section>
             <div id="amazonia"></div>
             <img class="Amazon" src="images/amazonia.jpeg" alt="Amazon Rainforest picture">
-            <section class="msg">
+            <section class="ama-msg">
                 <h2>Amazon Rainforest</h2>
                 <p>The Amazon Rainforest in Brazil is not only the largest tropical rainforest in the world but also a
                     treasure trove of biodiversity. Discover the astonishing array of plants and animals that call this
@@ -76,16 +78,16 @@
             </section>
             <div id="portuguese"></div>
             <img class="portuguese" src="images/portugues.jpeg" alt="Portuguese Language picture">
-            <section class="msg">
+            <section class="por-msg">
                 <h2>Portuguese Language</h2>
                 <p>Brazil is the only country in South America where the official language is Portuguese, due to
                     Portuguese colonization.</p>
             </section>
-            <section class="conclusion">
+            <div class="conclusion">
                 <p>Brazil is a country of endless surprises and remarkable stories waiting to be told. Join us on a
                     journey through these captivating curiosities, and get ready to be enchanted by the unique tapestry
                     that is Brazil.</p>
-            </section>
+                </div>
         </main>
         <footer>
             <div class="social">
@@ -99,8 +101,8 @@
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
             </div>
-            <p>Brazilian Beauties &copy; 2023 - Melyssa Silva</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
+            <p class="copy">Brazilian Beauties &copy; 2023 - Melyssa Silva</p>
+            <p class="site-plan"><a href="site-plan.html">Site Plan</a></p>
         </footer>
     </div>
 </body>
