@@ -349,13 +349,12 @@
         .site-plan{
             grid-column: 11 / 13;
             text-align: center;
+            color: var(--accent2-color);
            
         }
-        .site-plan a{
-            color: var(--accent2-color);
-        }
 
-        .site-plan a:hover{
+
+        .site-plan:hover{
             color: white;
         }
             /****************************************************************
